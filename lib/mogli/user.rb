@@ -81,11 +81,35 @@ module Mogli
       :xmpp_login,
       :ads_management,
       :user_checkins,
-
+      
+      #friend data permissions
+      :friends_about_me,
+      :friends_activities,
+      :friends_birthday,
+      :friends_checkins,
+      :friends_education_history,
+      :friends_events,
+      :friends_groups,
+      :friends_hometown,
+      :friends_interests,
+      :friends_likes,
+      :friends_location,
+      :friends_notes,
+      :friends_online_presence,
+      :friends_photo_video_tags,
+      :friends_photos,
+      :friends_relationships,
+      :friends_relationship_details,
+      :friends_religion_politics,
+      :friends_status,
+      :friends_videos,
+      :friends_website,
+      :friends_work_history,
+      
       # page permissions
       :manage_pages
     ]
-
+    
     # check if the facebook user has a specific permission. the permission arg
     # is a symbol matching the facebook extended permission names exactly:
     # http://developers.facebook.com/docs/authentication/permissions
