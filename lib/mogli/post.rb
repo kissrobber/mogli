@@ -6,9 +6,9 @@ module Mogli
 
     define_properties :id, :to, :message, :picture, :link, :name, :caption,
       :description, :source, :icon, :attribution, :actions, :likes,
-      :created_time, :updated_time, :privacy, :type, :object_attachment
+      :created_time, :updated_time, :privacy, :type, :object_attachment, :properties
 
-    creation_properties :message, :picture, :link, :name, :description, :caption, :source, :actions, :privacy, :object_attachment
+    creation_properties :message, :picture, :link, :name, :description, :caption, :source, :actions, :privacy, :object_attachment, :properties
 
     hash_populating_accessor :actions, "Action"
     has_association :comments, "Comment"
